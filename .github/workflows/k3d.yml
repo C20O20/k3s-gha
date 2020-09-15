@@ -43,3 +43,15 @@ jobs:
           kubectl cluster-info
           kubectl create deployment --image nginx my-nginx
           kubectl get po
+      - name: example tests
+        run: |
+          kubectl get po
+      - name: example tests
+        run: |
+          kubectl get po
+      - name: example tests
+        run: |
+          kubectl get po
+      - name: example tests
+        run: |
+          kubectl get po
